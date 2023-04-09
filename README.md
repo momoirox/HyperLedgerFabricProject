@@ -39,7 +39,7 @@ Now that the application is running you can use it to connect and send requests 
 To stop the network run "./network.sh down" while in /fabric-samples/test-network directory
 
 
-# Online sources that helped in developing this project
+## Online sources that helped in developing this project
 
 https://www.youtube.com/watch?v=85XgeOJHky0&t=8972s
 
