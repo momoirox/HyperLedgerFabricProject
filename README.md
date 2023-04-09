@@ -34,12 +34,15 @@ Now that the application is running you can use it to connect and send requests 
 
 ![alt text](Images/postman.png?raw=true)
 
-#Stop the network
+# Stopping the network
 
 To stop the network run "./network.sh down" while in /fabric-samples/test-network directory
 
 
-#Online sources that helped in developing this project
+# Online sources that helped in developing this project
+
 https://www.youtube.com/watch?v=85XgeOJHky0&t=8972s
+
 https://www.youtube.com/watch?v=w-d_Uio0jWA
+
 https://hyperledger-fabric.readthedocs.io/en/release-2.5/deploy_chaincode.html (Gives better uderstanding of what the script automatically does when deploying the chaincode)
