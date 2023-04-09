@@ -1,4 +1,4 @@
-﻿# Building blockchain with HyperLedgerFabric  
+﻿# Building Blockchain with HyperLedger Fabric  
 # pidasp - 2022
 
 This is an example application implemented using the Hyperledger Fabric blockchain framework.
