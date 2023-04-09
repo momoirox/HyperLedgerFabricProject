@@ -7,9 +7,9 @@ The "./fabric-samples" directory mainly contains the code from the official Hype
 
 # Using the application
 
-To start network ypu need to enter /fabric-samples/test-network and run "./network.sh createChannel -ca".
+To start network you need to enter /fabric-samples/test-network directory and run "./network.sh createChannel -ca".
 The network has 4 organizations, and each has 4 peers.
-The option "-ca" ensures that all cryptometerials are generated using the Certificati Authority. If this is needed to overwrite default settings which are using cryptogen tool to generate cryptomaterials.
+The option "-ca" ensures that all cryptometerials are generated using the Certificate Authority. This is needed to overwrite using cryptogen tool to generate cryptomaterials.
 
 ![alt text](Images/starting.png?raw=true)
 
@@ -22,7 +22,7 @@ To deploy chaincode after the network is started, run "./network.sh deployCC -cc
 
 
 # Running the client application
-To run the client application, enter the MyProject/client, and run "go run .". After this, web application is started and you can write requests in postman or in order to interact with the network. The application communicates with one of the peers from the organization that you choose after starting the application. In order to change which peer this is, open the project/cars-and-persons-application/app_config.json and change the desired fields.
+To run the client application, enter the MyProject/client, and run "go run .". After this, web application is started and you can write requests in postman or in order to interact with the network. The application communicates with one of the peers from the organization.
 
 !!!Make sure to delete keystore & wallet folder when starting application because the network will generate it after every start!!!
 
