@@ -1,0 +1,13 @@
+ENV_DAL=`echo $DISCOVERY_AS_LOCALHOST`
+export CORE_PEER_LOCALMSPID="Org1MSP"
+echo "ENV_DAL:"$DISCOVERY_AS_LOCALHOST
+
+if [ "$ENV_DAL" != "true" ]then
+	export DISCOVERY_AS_LOCALHOST=true
+fi
+
+echo "DISCOVERY_AS_LOCALHOST="$DISCOVERY_AS_LOCALHOST
+
+echo "run ..."
+
+go run main.go
