@@ -1,4 +1,4 @@
-﻿# Go-Blockchain
+﻿# Building blockchain with HyperLedgerFabric  
 # pidasp - 2022
 
 This is an example application implemented using the Hyperledger Fabric blockchain framework.
