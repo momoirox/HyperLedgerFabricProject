@@ -11,7 +11,7 @@ To start network ypu need to enter /fabric-samples/test-network and run "./netwo
 The network has 4 organizations, and each has 4 peers.
 The option "-ca" ensures that all cryptometerials are generated using the Certificati Authority. If this is needed to overwrite default settings which are using sryptogen tool to generate cryptomaterials.
 
-![alt text](https://github.dev/momoirox/Go-Blockchain-/blob/master/Images/Screenshot from 2023-04-09 15-07-43.png?raw=true)
+![alt text](Images/starting.png?raw=true)
 
 
 #Deploying Chaincode
